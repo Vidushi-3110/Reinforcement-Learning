@@ -11,7 +11,7 @@ a short takeaway.
 
 ## 📚 Notebooks
 
-### 01️⃣ Markov Decision Process (MDP)
+### 1️⃣ Markov Decision Process (MDP)
 **What it is:** The basic framework used to describe any RL problem — States, Actions,
 Rewards, Transition Probabilities, and a Discount Factor.
 
@@ -26,7 +26,7 @@ Rewards, Transition Probabilities, and a Discount Factor.
 
 ---
 
-### 02️⃣ Dynamic Programming
+### 2️⃣ Dynamic Programming
 **What it is:** When we **already know** the environment's rewards and transitions, we can
 directly calculate the best possible values using the Bellman Equation — no trial and error.
 
@@ -40,7 +40,7 @@ which is rarely true in real life.
 
 ---
 
-### 03️⃣ Monte Carlo
+### 3️⃣ Monte Carlo
 **What it is:** Now we **don't know the model** — we learn only from full episodes of
 experience by averaging the returns (total rewards) we observe.
 
@@ -55,7 +55,7 @@ learning anything.
 
 ---
 
-### 04️⃣ Temporal Difference (TD) Learning
+### 4️⃣ Temporal Difference (TD) Learning
 **What it is:** A mix of Monte Carlo and Dynamic Programming — no model needed, but we can
 update our estimates after **every single step**, not just at the end of an episode.
 
@@ -68,7 +68,7 @@ update our estimates after **every single step**, not just at the end of an epis
 
 ---
 
-### 05️⃣ SARSA
+### 5️⃣ SARSA
 **What it is:** An **on-policy** control algorithm — the agent learns the value of the
 policy it is *actually* following, including its random exploration steps.
 
@@ -84,7 +84,7 @@ that stays away from the cliff edge.
 
 ---
 
-### 06️⃣ Q-Learning
+### 6️⃣ Q-Learning
 **What it is:** An **off-policy** control algorithm — the agent always learns assuming it
 will take the **best possible** next action, even if it doesn't actually take it.
 
@@ -100,7 +100,7 @@ without falling into a hole.
 
 ---
 
-### 07️⃣ Cliff Walking — SARSA vs Q-Learning
+### 7️⃣ Cliff Walking — SARSA vs Q-Learning
 **What it is:** Training both algorithms on the **same environment** to directly compare
 on-policy vs off-policy behavior.
 
